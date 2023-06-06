@@ -1,0 +1,136 @@
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --font-weight: 400;
+  --letter-spacing: 0.02em;
+  --primary-color: #434455;
+}
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+/*======= body ======*/
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/*====== logo =======*/
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.menu-item:hover {
+  color: #404bbf;
+}
+.menu-contact:hover,
+.menu-contact:focus {
+  color: #404bbf;
+}
+/*=========== buttons ======*/
+/*button {
+  font-family: inherit;
+}*/
+.btn:hover {
+  background: #404bbf;
+  color: white;
+}
+.btn {
+  background: #4d5ae5;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-portfolio:hover {
+  background: #404bbf;
+  color: white;
+}
+
+.btn-portfolio {
+  background: #f4f4fd;
+  color: #4d5ae5;
+  cursor: pointer;
+}
+
+/*=====/buttons====*/
+
+/*======header-nav====*/
+
+.menu-item {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.56;
+  color: #2e2f42;
+}
+
+.menu-contact {
+  font-family: var(--primary-font);
+  font-weight: var(--font-weight);
+  font-size: 16px;
+  line-height: 1.56;
+
+  color: var(--primary-color);
+}
+
+/*====== section 1====*/
+.title {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+
+  /* color: #ffffff;*/
+}
+
+/*====== section 2 ======*/
+.title-three {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  color: #2e2f42;
+}
+.text {
+  font-family: var(--primary-font);
+  font-weight: var(--font-weight);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-color);
+}
+
+/*===== section 3 =====*/
+.title-two {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+/*====== section 4 =====*/
