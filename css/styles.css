@@ -39,7 +39,7 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+
   color: #4d5ae5;
 }
 
@@ -50,7 +50,7 @@ body {
   line-height: 21px;
 
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+
 
   color: #2e2f42;
 }
@@ -101,7 +101,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background-color: #F4F4FD;
@@ -141,7 +140,6 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: var(--letter-spacing);
 
   color: #ffffff;
@@ -172,10 +170,8 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
-  letter-spacing: var(--letter-spacing);
 
-  text-transform: capitalize;
+  letter-spacing: var(--letter-spacing);
   color: #2e2f42;
 }
 
@@ -198,8 +194,8 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
- letter-spacing: 0.03em;
-  text-transform: uppercase;
+  letter-spacing: 0.03em;
+
   color: #f4f4fd;
 }
 
