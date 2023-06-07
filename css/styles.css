@@ -38,9 +38,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -48,12 +45,10 @@ body {
 
 .logo-link {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
-  display: flex;
-  align-items: center;
+
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -70,7 +65,7 @@ body {
   color: #404bbf;
 }
 
-.address {
+.addres {
   font-style: normal;
 }
 
@@ -106,11 +101,10 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
+  background-color: #F4F4FD;
   cursor: pointer;
 }
 
@@ -123,16 +117,17 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
+  letter-spacing: var(--letter-spacing);
   color: #2e2f42;
 }
 
-.menu-contact {
+.menu-contact,
+.addres {
   font-family: var(--primary-font);
   font-weight: var(--font-weight);
   font-size: 16px;
   line-height: 1.5;
-
+  letter-spacing: var(--letter-spacing);
   color: var(--primary-color);
 }
 
@@ -203,8 +198,8 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
+
+
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
